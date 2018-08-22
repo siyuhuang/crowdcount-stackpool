@@ -31,45 +31,32 @@ This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](h
    run `create_training_set_shtech.m` in matlab to create training and validataion set along with ground truth files
 
 # Train
-1. To train Base-M Net+vanilla pooling on ShanghaiTechA, edit `train.py` 
+1. To test **Base-M Net**+**vanilla pooling** on **ShanghaiTechA**, edit in `train.py` 
    ```bash
    dataset_name = datasets[0]   
    model = models[0]         
    pool = pools[0] 
    ```
    
-   To train Base-M Net+stacked pooling on ShanghaiTechA, edit `train.py`
+   To test **Base-M Net**+**stacked pooling** on **ShanghaiTechA**, edit in `train.py`
    ```bash
    dataset_name = datasets[0]   
    model = models[0]         
    pool = pools[1] 
-   ```
-   
-2. Run `python train.py` to start training
+   ```   
+2. Run `python train.py` respectively to start training
 
 # Test
-1. To test **Base-M Net**+**vanilla pooling** on **ShanghaiTechA**, edit `train.py` 
-   ```bash
-   dataset_name = datasets[0]   
-   model = models[0]         
-   pool = pools[0] 
-   ```
-   
-   To test **Base-M Net**+**stacked pooling** on **ShanghaiTechA**, edit `train.py`
-   ```bash
-   dataset_name = datasets[0]   
-   model = models[0]         
-   pool = pools[1] 
-   ```
-2. Edit `model_path` in `test.py` with the best model checkpoint on validation set (output by training process)  
-3. Run `python test.py` to compare them!
+1. Follow step 1 of Train to edit corresponding `dataset_name`, `model`, and `pool` in `test.py`
+2. Edit `model_path` in `test.py` using the best model checkpoint on validation set (output by training process)  
+3. Run `python test.py` respectively to compare them!
 
 # Note
-1. To compare the pooling methods (**vanilla pooling**, **stacked pooling**, and **multi-kernel pooling**) described in our paper:
+1. To evaluate the pooling methods (**vanilla pooling**, **stacked pooling**, and **multi-kernel pooling**) described in our paper:
 
      Edit `pool` in `train.py` and `test.py`
 
-2. To try datasets (ShanghaiTechA, ShanghaiTechB) and backbone models (**Base-M Net**, **Wide-Net**, **Deep-Net**) described in our paper:
+2. To try datasets (**ShanghaiTechA**, **ShanghaiTechB**) and backbone models (**Base-M Net**, **Wide-Net**, **Deep-Net**) described in our paper:
 
      Edit `dataset_name` and `model` in `train.py` and `test.py`
 
