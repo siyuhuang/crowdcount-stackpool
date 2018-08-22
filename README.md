@@ -26,6 +26,7 @@ This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](h
 5. `cd ./data_preparation/`
 
    run `create_gt_test_set_shtech.m` in matlab to create ground truth files for test data
+   
    run `create_training_set_shtech.m` in matlab to create training and validataion set along with ground truth files
 
 # Train
