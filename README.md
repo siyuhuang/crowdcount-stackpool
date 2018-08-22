@@ -44,6 +44,7 @@ This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](h
        edit `pool` in `train.py` and `test.py`
 
 2. To try datasets (ShanghaiTechA, ShanghaiTechB) and backbone models (Base-M Net, Wide-Net, Deep-Net) described in our paper:
+
        edit `dataset_name` and `model` in `train.py` and `test.py`
 
 
