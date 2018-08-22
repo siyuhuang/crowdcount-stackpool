@@ -47,12 +47,12 @@ This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](h
 2. Run `python train.py` respectively to start training
 
 # Test
-1. Follow step 1 of Train to edit corresponding `dataset_name`, `model`, and `pool` in `test.py`
+1. Follow step 1 of **Train** to edit corresponding `dataset_name`, `model`, and `pool` in `test.py`
 2. Edit `model_path` in `test.py` using the best model checkpoint on validation set (output by training process)  
 3. Run `python test.py` respectively to compare them!
 
 # Note
-1. To evaluate the pooling methods (**vanilla pooling**, **stacked pooling**, and **multi-kernel pooling**) described in our paper:
+1. To try pooling methods (**vanilla pooling**, **stacked pooling**, and **multi-kernel pooling**) described in our paper:
 
      Edit `pool` in `train.py` and `test.py`
 
