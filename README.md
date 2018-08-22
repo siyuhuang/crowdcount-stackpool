@@ -1,7 +1,7 @@
 # Stacked Pooling: Improving Crowd Counting by Boosting Scale Invariance
 
 This is the implementation of paper "Stacked Pooling: Improving Crowd Counting by Boosting Scale Invariance.
-![Stacked pooling](https://github.com/siyuhuang/crowdcount-stackpool/blob/master/thumbnails/stackpool.jpg)
+![Stacked pooling](https://github.com/siyuhuang/crowdcount-stackpool/blob/master/thumbnails/stackpool.jpg){: width="480px" height="292px"}
 
 This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](https://github.com/svishwa/crowdcount-mcnn)
 
