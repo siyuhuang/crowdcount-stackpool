@@ -30,24 +30,22 @@ This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](h
 
 # Train
 Run
-```bash
-python train.py
-```
+  `python train.py`
+
 
 # Test
 1. Edit `model_path` in `test.py` with the model checkpoint which has the best MAE on validation set (output in training process).   
 2. Run
-   ```bash   
-   python test.py 
-   ```
+     `python test.py`
 
 # Note
-1. To compare the pooling methods (vanilla pooling, stacked pooling, and multi-kernel pooling) described in our paper, 
+1. To compare the pooling methods (vanilla pooling, stacked pooling, and multi-kernel pooling) described in our paper:
 
-edit `pool` in `train.py` and `test.py`
-2. To try datasets (ShanghaiTechA, ShanghaiTechB) and backbone models (Base-M Net, Wide-Net, Deep-Net) described in our paper,
+     edit `pool` in `train.py` and `test.py`
 
-edit `dataset_name` and `model` in `train.py` and `test.py`
+2. To try datasets (ShanghaiTechA, ShanghaiTechB) and backbone models (Base-M Net, Wide-Net, Deep-Net) described in our paper:
+
+     edit `dataset_name` and `model` in `train.py` and `test.py`
 
 
 
