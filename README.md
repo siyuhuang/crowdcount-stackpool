@@ -32,11 +32,11 @@ This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](h
 
 # Train
 1. To train Base-Net + vanilla pooling on ShanghaiTechA, edit `train.py` as
-```bash
-dataset_name = datasets[0]   
-model = models[0]         
-pool = pools[0] 
-```
+   ```bash
+   dataset_name = datasets[0]   
+   model = models[0]         
+   pool = pools[0] 
+   ```
 
 # Test
 1. Edit `model_path` in `test.py` with the best model checkpoint on validation set (output in training process)  
