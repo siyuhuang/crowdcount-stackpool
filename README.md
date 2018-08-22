@@ -37,7 +37,7 @@ This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](h
 
 
 # Test
-1. Edit `model_path` in `test.py` with the model checkpoint which has the best MAE on validation set (output in training process)  
+1. Edit `model_path` in `test.py` with the best model checkpoint on validation set (output in training process)  
 2. Run
 
      `python test.py`
