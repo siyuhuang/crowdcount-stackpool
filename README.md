@@ -31,14 +31,14 @@ This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](h
    run `create_training_set_shtech.m` in matlab to create training and validataion set along with ground truth files
 
 # Train
-1. To test **Base-M Net**+**vanilla pooling** on **ShanghaiTechA**, edit in `train.py` 
+1. To train **Base-M Net**+**vanilla pooling** on **ShanghaiTechA**, edit in `train.py` 
    ```bash
    dataset_name = datasets[0]   
    model = models[0]         
    pool = pools[0] 
    ```
    
-   To test **Base-M Net**+**stacked pooling** on **ShanghaiTechA**, edit in `train.py`
+   To train **Base-M Net**+**stacked pooling** on **ShanghaiTechA**, edit in `train.py`
    ```bash
    dataset_name = datasets[0]   
    model = models[0]         
