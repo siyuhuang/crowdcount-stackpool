@@ -22,12 +22,13 @@ This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](h
    mkdir ./data/original/shanghaitech/  
    ```
 3. Save "part_A_final" under ./data/original/shanghaitech/
-4. Save "part_B_final" under ./data/original/shanghaitech/
-5. `cd ./data_preparation/`
 
-   run `create_gt_test_set_shtech.m` in matlab to create ground truth files for test data
+   Save "part_B_final" under ./data/original/shanghaitech/
+4. `cd ./data_preparation/`
+
+   Run `create_gt_test_set_shtech.m` in matlab to create ground truth files for test data
    
-   run `create_training_set_shtech.m` in matlab to create training and validataion set along with ground truth files
+   Run `create_training_set_shtech.m` in matlab to create training and validataion set along with ground truth files
 
 # Train
 1. To train **Base-M Net**+**vanilla pooling** on **ShanghaiTechA**, edit in `train.py` 
