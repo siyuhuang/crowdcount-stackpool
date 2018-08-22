@@ -14,12 +14,9 @@ This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](h
 
 # Data Setup
 1. Download ShanghaiTech Dataset from   
-   Dropbox:   https://www.dropbox.com/s/fipgjqxl7uj8hd5/ShanghaiTech.zip?dl=0  
-   Baidu Disk: http://pan.baidu.com/s/1nuAYslz
-2. Create Directory 
-   ```bash
-   mkdir ./data/original/shanghaitech/  
-   ```
+     Dropbox:   https://www.dropbox.com/s/fipgjqxl7uj8hd5/ShanghaiTech.zip?dl=0  
+     Baidu Disk: http://pan.baidu.com/s/1nuAYslz
+2. Create Directory `mkdir ./data/original/shanghaitech/`
 3. Save "part_A_final" under ./data/original/shanghaitech/  
    Save "part_B_final" under ./data/original/shanghaitech/
 4. `cd ./data_preparation/`  
