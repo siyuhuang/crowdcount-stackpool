@@ -2,7 +2,7 @@
 
 This is the implementation of paper "Stacked Pooling: Improving Crowd Counting by Boosting Scale Invariance.
 <p align="center">
-   <img src="https://github.com/siyuhuang/crowdcount-stackpool/blob/master/thumbnails/stackpool.jpg" width="350">
+   <img src="https://github.com/siyuhuang/crowdcount-stackpool/blob/master/thumbnails/stackpool.jpg" width="450">
 </p>
 This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](https://github.com/svishwa/crowdcount-mcnn)
 
