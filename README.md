@@ -1,7 +1,7 @@
 # Stacked Pooling: Improving Crowd Counting by Boosting Scale Invariance
 
 This is the implementation of paper "Stacked Pooling: Improving Crowd Counting by Boosting Scale Invariance.
-![Stacked pooling](https://github.com/siyuhuang/crowdcount-stackpool/blob/master/thumbnails/stackpool.jpg){: width="480px" height="292px"}
+![Stacked pooling](https://github.com/siyuhuang/crowdcount-stackpool/blob/master/thumbnails/stackpool.pdf){: width="480px" height="292px"}
 
 This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](https://github.com/svishwa/crowdcount-mcnn)
 
@@ -28,13 +28,15 @@ This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](h
    run create_training_set_shtech.m in matlab to create training and validataion set along with ground truth files
 
 # Train
-Run```bash
+Run
+```bash
 python train.py
 ```
 
 # Test
 1. Edit `model_path` in `test.py` with the model checkpoint which has the best MAE on validation set (output in training process).   
-2. Run```bash   
+2. Run
+```bash   
 python test.py 
 ```
 
