@@ -21,10 +21,10 @@ This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](h
    ```
 3. Save "part_A_final" under ./data/original/shanghaitech/
 4. Save "part_B_final" under ./data/original/shanghaitech/
-5. cd ./data_preparation/
+5. `cd ./data_preparation/`
 
-   run create_gt_test_set_shtech.m in matlab to create ground truth files for test data
-6. cd ./data_preparation/
+   run `create_gt_test_set_shtech.m` in matlab to create ground truth files for test data
+6. `cd ./data_preparation/`
 
    run create_training_set_shtech.m in matlab to create training and validataion set along with ground truth files
 
@@ -43,8 +43,10 @@ python train.py
 
 # Note
 1. To compare the pooling methods (vanilla pooling, stacked pooling, and multi-kernel pooling) described in our paper, 
-<br />edit `pool` in `train.py` and `test.py`
+
+edit `pool` in `train.py` and `test.py`
 2. To try datasets (ShanghaiTechA, ShanghaiTechB) and backbone models (Base-M Net, Wide-Net, Deep-Net) described in our paper,
+
 edit `dataset_name` and `model` in `train.py` and `test.py`
 
 
