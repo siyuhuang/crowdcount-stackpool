@@ -24,24 +24,20 @@ This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](h
    Run `create_training_set_shtech.m` in matlab to create training and validataion set along with ground truth files
    
 ## Train
-1. To train **Base-M Net**+**vanilla pooling** on **ShanghaiTechA**, edit configurations in `train.py` 
-   ```bash
-   dataset_name = datasets[0]   
-   model = models[0]         
+1. To train **Deep Net**+**vanilla pooling** on **ShanghaiTechA**, edit configurations in `train.py` 
+   ```bash       
    pool = pools[0] 
    ```
    
-   To train **Base-M Net**+**stacked pooling** on **ShanghaiTechA**, edit configurations in `train.py`
-   ```bash
-   dataset_name = datasets[0]   
-   model = models[0]         
+   To train **Deep Net**+**stacked pooling** on **ShanghaiTechA**, edit configurations in `train.py`
+   ```bash     
    pool = pools[1] 
    ```   
 2. Run `python train.py` respectively to start training
 
 ## Test
-1. Follow step 1 of **Train** to edit corresponding `dataset_name`, `model`, and `pool` in `test.py`
-2. Edit `model_path` in `test.py` using the best model checkpoint on validation set (output by training process)  
+1. Follow step 1 of **Train** to edit corresponding `pool` in `test.py`
+2. Edit `model_path` in `test.py` using the best checkpoint on validation set (output by training process)  
 3. Run `python test.py` respectively to compare them!
 
 ## Note
@@ -49,7 +45,7 @@ This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](h
 
      Edit `pool` in `train.py` and `test.py`
 
-2. To evaluate on datasets (**ShanghaiTechA**, **ShanghaiTechB**) or backbone models (**Base-M Net**, **Wide-Net**, **Deep-Net**) described in our paper:
+2. To evaluate on datasets (**ShanghaiTechA**, **ShanghaiTechB**) or backbone models (**Base Net**, **Wide-Net**, **Deep-Net**) described in our paper:
 
      Edit `dataset_name` or `model` in `train.py` and `test.py`
 
