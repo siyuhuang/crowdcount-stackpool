@@ -17,7 +17,7 @@ pools = ['vpool','stackpool','mpool']    #  vpool is vanilla pooling; stackpool 
 
 ###
 dataset_name = datasets[0]   # choose the dataset
-model = models[0]          # choose the backbone network architecture
+model = models[2]          # choose the backbone network architecture
 pool = pools[0]          # choose the pooling method 
 method=model+'_'+pool
 
