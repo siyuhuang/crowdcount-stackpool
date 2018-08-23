@@ -54,7 +54,7 @@ batch_size=1
 disp_interval = 1500
 if model=='base':
     if dataset_name == 'shtechA':
-        lr = 3.5*1e-5
+        lr = 1e-4
     if dataset_name == 'shtechB':
         lr = 1e-5
     scaling=4   # output density map is 1/4 size of input image
