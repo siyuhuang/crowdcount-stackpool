@@ -18,7 +18,7 @@ models = ['base', 'wide', 'deep']     # backbone network architecture
 pools = ['vpool','stackpool','mpool']    #  vpool is vanilla pooling; stackpool is stacked pooling; mpool is multi-kernel pooling; 
 
 dataset_name = datasets[0]   # choose the dataset
-model = models[0]          # choose the backbone network architecture
+model = models[2]          # choose the backbone network architecture
 pool = pools[0]          # choose the pooling method 
 method=model+'_'+pool
 print 'Training %s on %s' % (method, dataset_name)
