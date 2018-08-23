@@ -10,7 +10,7 @@ This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](h
 
 ## Dependency
 1. Python 2.7
-2. PyTorch-0.4.0
+2. PyTorch 0.4.0
 
 ## Data Setup
 1. Download ShanghaiTech Dataset from   
