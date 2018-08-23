@@ -1,6 +1,6 @@
-# Stacked Pooling: Improving Crowd Counting by Boosting Scale Invariance
+## Stacked Pooling: Improving Crowd Counting by Boosting Scale Invariance
 
-This is the implementation of paper "Stacked Pooling: Improving Crowd Counting by Boosting Scale Invariance"
+Pytorch implementation of paper "Stacked Pooling: Improving Crowd Counting by Boosting Scale Invariance"
 
 <p align="center">
    <img src="https://github.com/siyuhuang/crowdcount-stackpool/blob/master/thumbnails/stackpool.jpg" width="400">
