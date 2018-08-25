@@ -56,7 +56,7 @@ if model=='base':
     if dataset_name == 'shtechA':
         lr = 5*1e-5
     if dataset_name == 'shtechB':
-        lr = 1e-5
+        lr = 2*1e-5
     scaling=4   # output density map is 1/4 size of input image
 if model=='wide':
     if dataset_name == 'shtechA':
