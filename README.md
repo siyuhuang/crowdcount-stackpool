@@ -2,11 +2,18 @@
 
 Pytorch implementation of paper "Stacked Pooling: Improving Crowd Counting by Boosting Scale Invariance"
 
+This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](https://github.com/svishwa/crowdcount-mcnn)
+
 <p align="center">
    <img src="https://github.com/siyuhuang/crowdcount-stackpool/blob/master/thumbnails/stackpool.jpg" width="400">
 </p>
 
-This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](https://github.com/svishwa/crowdcount-mcnn)
+|            | ShanghaiTech-A    |  ShanghaiTech-B  | WorldExpo'10|
+| --------   | :-----:   | :----: | :----: |
+| Vanilla Pooling | 97.63      |   21.17    | 14.74 |
+| Stacked Pooling | **93.98**      |  **18.73**    |  **12.92**|
+
+
 
 ## Dependency
 1. Python 2.7
