@@ -4,15 +4,14 @@ Pytorch implementation of paper "Stacked Pooling: Improving Crowd Counting by Bo
 
 This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](https://github.com/svishwa/crowdcount-mcnn)
 
-<p align="center">
+<p align="left">
    <img src="https://github.com/siyuhuang/crowdcount-stackpool/blob/master/thumbnails/stackpool.jpg" width="400">
 </p>
 
-|            | ShanghaiTech-A    |  ShanghaiTech-B  | WorldExpo'10|
+| | ShanghaiTech-A    |  ShanghaiTech-B  | WorldExpo'10|
 | --------   | :-----:   | :----: | :----: |
 | Vanilla Pooling | 97.63      |   21.17    | 14.74 |
-| Stacked Pooling | **93.98**      |  **18.73**    |  **12.92**|
-
+| Stacked Pooling | **93.98**  |  **18.73** |  **12.92**|
 
 
 ## Dependency
