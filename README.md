@@ -1,4 +1,4 @@
-## Stacked Pooling: Improving Crowd Counting by Boosting Scale Invariance
+## Stacked Pooling for Boosting Scale Invariance of Crowd Counting
 
 PyTorch implementation of  "**Stacked Pooling for Boosting Scale Invariance of Crowd Counting**" [\[ICASSP 2020\]](https://siyuhuang.github.io/papers/ICASSP-2020-STACKED%20POOLING%20FOR%20BOOSTING%20SCALE%20INVARIANCE%20OF%20CROWD%20COUNTING.pdf). 
 
