@@ -2,6 +2,18 @@
 
 Pytorch implementation of paper "Stacked Pooling for Boosting Scale Invariance of Crowd Counting" \[ICASSP 2020\]
 
+PyTorch implementation of  "**Stacked Pooling for Boosting Scale Invariance of Crowd Counting**" [\[ICASSP 2020\]](https://siyuhuang.github.io/papers/ICASSP-2020-STACKED%20POOLING%20FOR%20BOOSTING%20SCALE%20INVARIANCE%20OF%20CROWD%20COUNTING.pdf). 
+
+```
+@inproceedings{huang2020stacked,
+  title={Stacked Pooling for Boosting Scale Invariance of Crowd Counting},
+  author={Huang, Siyu and Li, Xi and Cheng, Zhi-Qi and Zhang, Zhongfei and Hauptmann, Alexander},
+  booktitle={IEEE International Conference on Acoustics, Speech and Signal Processing},
+  pages={2578--2582},
+  year={2020},
+}
+```
+
 This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](https://github.com/svishwa/crowdcount-mcnn)
 
 <p align="left">
