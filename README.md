@@ -1,6 +1,6 @@
 ## Stacked Pooling: Improving Crowd Counting by Boosting Scale Invariance
 
-Pytorch implementation of paper "Stacked Pooling: Improving Crowd Counting by Boosting Scale Invariance"
+Pytorch implementation of paper "Stacked Pooling for Boosting Scale Invariance of Crowd Counting" \[ICASSP 2020\]
 
 This code is implemented based on [https://github.com/svishwa/crowdcount-mcnn](https://github.com/svishwa/crowdcount-mcnn)
 
